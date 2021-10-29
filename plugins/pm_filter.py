@@ -374,10 +374,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "pages":
         await query.answer()
-        EVAMARIABOT = await client.get_me().username
+        
     elif query.data == "start":
+        EVAMARIABOT = await client.get_me()
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/{EVAMARIABOT}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=g'http://t.me/{EVAMARIABOT.username}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Deploy Now', url='https://t.me/Mo_Tech_YT')

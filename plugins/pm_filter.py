@@ -378,7 +378,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         EVAMARIABOT = await client.get_me()
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=g'http://t.me/{EVAMARIABOT.username}?startgroup=true')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{EVAMARIABOT.username}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Deploy Now', url='https://t.me/Mo_Tech_YT')
@@ -399,6 +399,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Connection', callback_data='coct'),
             InlineKeyboardButton('Extra Mods', callback_data='extra')
+            ],[
+            InlineKeyboardButton('Admin Commands', callback_data='admin')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔮 Status', callback_data='stats')

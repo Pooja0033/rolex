@@ -6,13 +6,13 @@
 </h1>
 
 
-[![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
-[![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
-[![Size](https://img.shields.io/github/repo-size/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/EvamariaTG/EvaMaria)   
+[![Stars](https://img.shields.io/github/stars/MRK-YT/EvaMaria?style=flat-square&color=yellow)](https://github.com/MRK-YT/EvaMaria/stargazers)
+[![Forks](https://img.shields.io/github/forks/MRK-YT/EvaMaria?style=flat-square&color=orange)](https://github.com/MRK-YT/EvaMaria/fork)
+[![Size](https://img.shields.io/github/repo-size/MRK-YT/EvaMaria?style=flat-square&color=green)](https://github.com/MRK-YT/EvaMaria/)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/EvamariaTG/MRK-YT)   
 [![Contributors](https://img.shields.io/github/contributors/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/EvaMaria/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/EvamariaTG/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/MRK-YT/blob/main/LICENSE)
+[![Sparkline](https://stars.medv.io/MRK-YT/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
 
 
 ## Features
@@ -54,7 +54,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/EvamariaTG/evamaria/tree/master">
+<a href="https://heroku.com/deploy?template=https://github.com/MRK-YT/evamaria/tree/master">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>

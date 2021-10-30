@@ -381,14 +381,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{EVAMARIABOT.username}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Deploy Now', url='https://t.me/Mo_Tech_YT')
+            InlineKeyboardButton('🤖 Deploy Now', url='https://youtu.be/K4NTmsLJ3iM')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.START_TXT.format(query.from_user.mention),
+            text=script.START_TXT.format(query.from_user.mention, EVAMARIABOT.username),
             reply_markup=reply_markup,
             parse_mode='html'
         )

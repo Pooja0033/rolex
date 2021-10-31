@@ -37,6 +37,10 @@
             "description": "Username or ID of Admin. Separate multiple Admins by space. @MT_ID_Bot",
             "value": ""
         },
+        "SUPPORT_CHAT": {
+            "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
+            "value": ""
+        },
         "PICS": {
             "description": "Add some telegraph link of pictures .@MT_TelegraPH_Bot",
             "value": ""

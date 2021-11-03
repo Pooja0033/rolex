@@ -17,7 +17,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Mo_TECH_YT')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/mo_tech_yt')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -38,7 +38,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Mo_TECH_YT')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/mo_tech_yt')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -79,7 +79,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Mo_TECH_YT')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/mo_tech_YT')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -93,7 +93,10 @@ async def start(client, message):
         )
         return
     file_id = message.command[1]
-    files = (await get_file_details(file_id))[0]
+    files_ = await get_file_details(file_id)
+    if not files_:
+        return await message.reply('No such file exist.')
+    files = files_[0]
     title = files.file_name
     size=get_size(files.file_size)
     f_caption=files.caption

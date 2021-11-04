@@ -653,7 +653,6 @@ So you go to google and check the spelling of the name of the movie you want.
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
-            return
         
 
 async def advantage_spell_chok(msg):

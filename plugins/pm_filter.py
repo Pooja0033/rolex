@@ -634,11 +634,11 @@ async def auto_filter(client, msg, spoll=False):
             await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             print(e)
-          EvamariaTG=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            EvamariaTG=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
         EvamariaTG=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
-         await msg.message.delete()
+        await msg.message.delete()
     else:
         EvamariaTG=await client.send_message(
             chat_id = msg.chat.id,

@@ -580,22 +580,8 @@ async def auto_filter(client, msg, spoll=False):
             if not files:
                 if SPELL_CHECK_REPLY:
                     return
-                    EvamariaTG=await advantage_spell_chok(msg)
+                    await advantage_spell_chok(msg)
                 else:
-                    EvamariaTG=await client.send_message(
-                        chat_id = message.chat.id,
-                        text=f"""
-👋Hey {msg.from_user.mention}
-If this movie is not in our database you will not get that movie..
-Otherwise, the spelling of the name of the requested movie may not be correct...
-So you go to google and check the spelling of the name of the movie you want.
-ഈ സിനിമ ഞങ്ങളുടെ ഡാറ്റാബേസിൽ ഇല്ലെങ്കിൽ നിങ്ങൾക്ക് ഈ സിനിമ ലഭിക്കില്ല
-അല്ലെങ്കിൽ, അഭ്യർത്ഥിച്ച സിനിമയുടെ പേരിന്റെ അക്ഷരവിന്യാസം ശരിയായിരിക്കില്ല ...
-അതിനാൽ നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ് പരിശോധിക്കുക""",
-                        parse_mode="html",
-                        reply_to_message_id=message.message_id
-                    )
-
                     return
     else:
         message = msg.message.reply_to_message # msg will be callback query
@@ -686,7 +672,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data='close')])
-    await msg.reply('I cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply(f'Hey {msg.from_user.mention}\nI cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
     
 
 

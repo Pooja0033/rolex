@@ -14,11 +14,7 @@ from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerId
 from utils import get_size, is_subscribed, get_poster, temp
 from database.users_chats_db import db
 from database.ia_filterdb import Media, get_file_details, get_search_results
-from database.filters_mdb import(
-   del_all,
-   find_filter,
-   get_filters,
-)
+from database.filters_mdb import del_all, find_filter, get_filters,
 
 BUTTONS = {}
 SPELL_CHECK = {}
@@ -672,7 +668,7 @@ async def advantage_spell_chok(msg):
                 )
             ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data='close')])
-    await msg.reply(f'Hey {msg.from_user.mention}\nI cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
+    await msg.reply(f'👋Hey {msg.from_user.mention}\nI cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
     
 
 

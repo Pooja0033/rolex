@@ -579,8 +579,22 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 if SPELL_CHECK_REPLY:
-                    return await advantage_spell_chok(msg)
+                    return EvamariaTG=await advantage_spell_chok(msg)
                 else:
+                    EvamariaTG=await client.send_message(
+                        chat_id = message.chat.id,
+                        text=f"""
+👋Hey {msg.from_user.mention}
+If this movie is not in our database you will not get that movie..
+Otherwise, the spelling of the name of the requested movie may not be correct...
+So you go to google and check the spelling of the name of the movie you want.
+ഈ സിനിമ ഞങ്ങളുടെ ഡാറ്റാബേസിൽ ഇല്ലെങ്കിൽ നിങ്ങൾക്ക് ഈ സിനിമ ലഭിക്കില്ല
+അല്ലെങ്കിൽ, അഭ്യർത്ഥിച്ച സിനിമയുടെ പേരിന്റെ അക്ഷരവിന്യാസം ശരിയായിരിക്കില്ല ...
+അതിനാൽ നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ് പരിശോധിക്കുക""",
+                        parse_mode="html",
+                        reply_to_message_id=message.message_id
+                    )
+
                     return
     else:
         message = msg.message.reply_to_message # msg will be callback query
@@ -634,26 +648,11 @@ async def auto_filter(client, msg, spoll=False):
             await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             print(e)
-            EvamariaTG=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
-        EvamariaTG=await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+        await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
-        await msg.message.delete()
-    else:
-        EvamariaTG=await client.send_message(
-            chat_id = msg.chat.id,
-            text=f"""
-👋Hey {msg.from_user.mention}
-If this movie is not in our database you will not get that movie..
-Otherwise, the spelling of the name of the requested movie may not be correct...
-So you go to google and check the spelling of the name of the movie you want.
-ഈ സിനിമ ഞങ്ങളുടെ ഡാറ്റാബേസിൽ ഇല്ലെങ്കിൽ നിങ്ങൾക്ക് ഈ സിനിമ ലഭിക്കില്ല
-അല്ലെങ്കിൽ, അഭ്യർത്ഥിച്ച സിനിമയുടെ പേരിന്റെ അക്ഷരവിന്യാസം ശരിയായിരിക്കില്ല ...
-അതിനാൽ നിങ്ങൾ ഗൂഗിളിൽ പോയി നിങ്ങൾക്ക് ആവശ്യമുള്ള സിനിമയുടെ പേരിന്റെ സ്പെല്ലിംഗ് പരിശോധിക്കുക""",
-            parse_mode="html",
-            reply_to_message_id=message.message_id
-        )
-        
+        await msg.message.delete()        
 
 async def advantage_spell_chok(msg):
     query = re.sub(r"\b(pl(i|e)*?(s|z+|ease|se|ese|(e+)s(e)?)|send|snd|movie(s)?|new|latest|br((o|u)h?)*|^h(e)?(l)*(o)*|mal(ayalam)?|tamil|file|that|give|find|und(o)*|kit(t(i|y)?)?o(w)?|thar(o)*w?|kittum(o)*|aya(k)*(um(o)*)?|full\smovie|any(one)|with\ssubtitle)", "", msg.text) # plis contribute some common words 

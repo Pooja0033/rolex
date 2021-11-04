@@ -1,6 +1,7 @@
 {
     "name": "EvaMariaBot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "stack": "container",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -15,18 +16,18 @@
       "inline"
     ],
     "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/MRK-YT/EvaMaria",
+    "repository": "https://github.com/EvamariaTG/EvaMaria",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org or https://youtu.be/5eEsvLAKVc0",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org or https://youtu.be/5eEsvLAKVc0",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "CHANNELS": {
@@ -38,7 +39,7 @@
             "required": true
         },
         "PICS": {
-            "description": "Add some telegraph link of pictures .@MT_telegraph_bot",
+            "description": "Add some telegraph link of pictures .",
             "required": false
         },
         "LOG_CHANNEL": {
@@ -66,11 +67,11 @@
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/gBLTsH-IXr0",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/gBLTsH-IXr0",
+            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
             "required": false
         },
         "COLLECTION_NAME": {

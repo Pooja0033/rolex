@@ -579,7 +579,8 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 if SPELL_CHECK_REPLY:
-                    return EvamariaTG=await advantage_spell_chok(msg)
+                    return
+                    EvamariaTG=await advantage_spell_chok(msg)
                 else:
                     EvamariaTG=await client.send_message(
                         chat_id = message.chat.id,

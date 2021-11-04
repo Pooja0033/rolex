@@ -622,7 +622,7 @@ async def auto_filter(client, msg, spoll=False):
         )
     imdb = await get_poster(search) if IMDB else None
     if imdb:
-        cap = f"<b>👤Requested Movie : {search}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>"
+        cap = f"➡️Requested Movie : {search}\n👤Requested By {msg.from_user.mention}\n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n🖋 StoryLine: <code>{imdb.get('plot')} </code>"
     else:
         cap = "Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
@@ -671,7 +671,7 @@ async def advantage_spell_chok(msg):
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
+    btn.append([InlineKeyboardButton(text="Close", callback_data='close')])
     await msg.reply('I cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
     
 

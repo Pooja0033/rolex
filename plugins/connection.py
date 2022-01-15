@@ -2,7 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from database.connections_mdb import add_connection, all_connections, if_active, delete_connection
 from info import ADMINS
-
+import logging
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.ERROR)
 @Client.on_message((filters.private | filters.group) & filters.command('connect'))
 async def addconnection(client,message):
     userid = message.from_user.id if message.from_user else None
@@ -35,7 +37,7 @@ async def addconnection(client,message):
             await message.reply_text("You should be an admin in Given group!", quote=True)
             return
     except Exception as e:
-        print(e)
+        logger.exception(e)
         await message.reply_text(
             "Invalid Group ID!\n\nIf correct, Make sure I'm present in your group!!",
             quote=True,
@@ -51,7 +53,7 @@ async def addconnection(client,message):
             addcon = await add_connection(str(group_id), str(userid))
             if addcon:
                 await message.reply_text(
-                    f"Sucessfully connected to **{title}**\nNow manage your group from my pm !",
+                    f"Successfully connected to **{title}**\nNow manage your group from my pm !",
                     quote=True,
                     parse_mode="md"
                 )
@@ -69,8 +71,8 @@ async def addconnection(client,message):
         else:
             await message.reply_text("Add me as an admin in group", quote=True)
     except Exception as e:
-        print(e)
-        await message.reply_text('Some error occured! Try again later.', quote=True)
+        logger.exception(e)
+        await message.reply_text('Some error occurred! Try again later.', quote=True)
         return
 
 
@@ -102,6 +104,7 @@ async def deleteconnection(client,message):
             await message.reply_text("This chat isn't connected to me!\nDo /connect to connect.", quote=True)
 
 
+
 @Client.on_message(filters.private & filters.command(["connections"]))
 async def connections(client,message):
     userid = message.from_user.id
@@ -123,7 +126,7 @@ async def connections(client,message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text=f"{title}{act}", callback_data=f"groupcb:{groupid}:{title}:{act}"
+                        text=f"{title}{act}", callback_data=f"groupcb:{groupid}:{act}"
                     )
                 ]
             )
@@ -133,5 +136,10 @@ async def connections(client,message):
         await message.reply_text(
             "Your connected group details ;\n\n",
             reply_markup=InlineKeyboardMarkup(buttons),
+            quote=True
+        )
+    else:
+        await message.reply_text(
+            "There are no active connections!! Connect to some groups first.",
             quote=True
         )

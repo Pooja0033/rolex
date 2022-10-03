@@ -5,8 +5,8 @@ class script(object):
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/kmtz_channel_v3> RED World Hub </a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: @KL_2335
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: ~My**~
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: Indian Library
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <a href=https://t.me/kmtz_v4> Tamil+Malayalam+Hindi+English+Telugu+Kannada </a>
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙈𝙤𝙣𝙚𝙮 𝙄𝙨 𝘼𝙡𝙬𝙖𝙮𝙨 𝙐𝙡𝙩𝙞𝙢𝙖𝙩𝙚 ❕💵
 ✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: **നിന്റെ അച്ഛൻ**
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""

@@ -2,7 +2,7 @@
   <img src="assets/logo.jpg" alt="Prv_ 35">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>Pranav</b>
 </h1>
 
 

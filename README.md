@@ -2,7 +2,7 @@
   <img src="https://i.ibb.co/SrYpdxT/file-169.jpg" alt="Prv_ 35">
 </p>
 <h1 align="center">
-  <b>Pranav</b>
+  <b>𝐏𝐫𝐚𝐧𝐚𝐯</b>
 </h1>
 
 
@@ -105,11 +105,11 @@ python3 bot.py
 • /link - to create link for one post
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/EvaMariaSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/TeamEvamaria)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/kmtz_v4)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/kmtz_channel_v3)
 
 ## Credits 
-* [![EvaMaria-Devs](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://telegram.dog/EvaMariaDevs)
+* [![Prv](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://t.me/KL_2335)
 
 
 ## Thanks to 

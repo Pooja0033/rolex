@@ -52,7 +52,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[Watch  Tutorial...](mongodb+srv://PV:PV@cluster0.ya3gyyq.mongodb.net/?retryWrites=true&w=majority)**</i>
+<i>**[Watch Tutorial...](mongodb+srv://PV:PV@cluster0.ya3gyyq.mongodb.net/?retryWrites=true&w=majority)**</i>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
@@ -109,7 +109,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/kmtz_channel_v3)
 
 ## Credits 
-* [![Prv](https://img.shields.io/static/v1?label=EvaMaria&message=devs&color=critical)](https://t.me/KL_2335)
+* [![Prv](https://img.shields.io/static/v1?label=Prv&message=devs&color=critical)](https://t.me/KL_2335)
 
 
 ## Thanks to 

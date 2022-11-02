@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Prv_ 35">
+  <img src="https://i.ibb.co/SrYpdxT/file-169.jpg" alt="Prv_ 35">
 </p>
 <h1 align="center">
   <b>Pranav</b>

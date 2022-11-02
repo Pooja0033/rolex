@@ -52,7 +52,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 ## Deploy
 You can deploy this bot anywhere.
 
-<i>**[Watch Deploying Tutorial...](https://youtu.be/fyFKnde_Jz8)**</i>
+<i>**[Watch  Tutorial...](mongodb+srv://PV:PV@cluster0.ya3gyyq.mongodb.net/?retryWrites=true&w=majority)**</i>
 
 <details><summary>Deploy To Heroku</summary>
 <p>

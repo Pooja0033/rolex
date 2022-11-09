@@ -22,7 +22,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/MO_TECH_YT')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/Prv_35')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -47,7 +47,7 @@ async def start(client, message):
 
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
 
-            InlineKeyboardButton('🤖 Deploy', url='https://youtu.be/fyFKnde_Jz8')
+            InlineKeyboardButton('🤖 Deploy', url='https://t.me/kmtz_channel_v3')
 
             ],[
 
@@ -94,7 +94,7 @@ async def start(client, message):
 
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
 
-            InlineKeyboardButton('🤖 Deploy', url='https://youtu.be/fyFKnde_Jz8')
+            InlineKeyboardButton('🤖 Deploy', url='https://t.me/kmtz_channel_v3')
 
             ],[
 

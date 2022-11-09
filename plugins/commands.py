@@ -45,15 +45,21 @@ async def start(client, message):
 
             ],[
 
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('⭕️ CHΛИИΞL ⭕️', url='https://t.me/kmtz_channel_v3'),
 
-            InlineKeyboardButton('🤖 Deploy', url='https://t.me/kmtz_channel_v3')
+            InlineKeyboardButton('⭕️ UᎮDΛTΞS ⭕️', url='https://t.me/Prv_35')
+
+            ],[      
+
+            InlineKeyboardButton('🔰 𝗛𝗘𝗟𝗣 🔰', callback_data='help'),
+
+            InlineKeyboardButton('☮️ CONTACT ME ☮️', url='https://t.me/KL_2335'),
+
+            InlineKeyboardButton('⏮️ ΛBOUT ⏯️', callback_data='about')
 
             ],[
 
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('☑️ 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌  ☑️', url='http://instagram.com/kl_02_pranav_?utm_source=qr')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(

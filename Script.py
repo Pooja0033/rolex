@@ -8,16 +8,16 @@ class script(object):
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
 ╔════❰ ꪖ᥇ꪮꪊ𝓽 ꪑ𝘴ᧁ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ 𝙈𝙔 𝙉𝘼𝙈𝙀 - <a href="https://t.me/Prv_35Bot"> 𝐇𝐨𝐧𝐞𝐲 𝐑𝐨𝐬𝐞 </a>
-║┣⪼ 𝐀𝐃𝐌𝐈𝐍 - <a href="https://t.me/KL_2335"> Prv </a>
-║┣⪼ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - <a href="https://t.me/kmtz_channel_v3"> 𝐊𝐌𝐓𝐙 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 </a>
-║┣⪼ 𝓛𝓲𝓫𝓻𝓪𝓻𝓻𝔂 - UK ᏞᏆᗷᖇᗩᖇᎩ(United Kollam)
-║┣⪼ 𝓛𝓪𝓷𝓰𝓾𝓪𝓰𝓮 - Manglish
-║┣⪼ 𝓓𝓪𝓽𝓪 𝓑𝓪𝓼𝓮 - എന്റെ ഫയൽസുകൾ
-
-എന്റെ സ്വായകാര്യതയാണ്
-║┣⪼ 𝓑𝓸𝓽 𝓼𝓮𝓻𝓿𝓮𝓻 -  KERALA
-║┣⪼ 𝓑𝓾𝓲𝓵𝓭 𝓢𝓽𝓪𝓽𝓾𝓼 - v1.0.1 [ 𝙱𝙴𝚃𝙰 ]
+║┣⪼ ★ᴍʏ ɴᴀᴍᴇ   - {}
+║┣⪼ 𝙈𝙔 𝗔𝗗𝗠𝗜𝗡  - <a href="https://t.me/KL_2335"> Prv </a>
+║┣⪼ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁    - <a href="https://t.me/Prv_35"> KMTZ </a>
+║┣⪼ 𝗚𝗥𝗢𝗨𝗣  ➾ <a href="https://t.me/kmtz_v3"> KMTZ GP1️⃣ </a>
+║┣⪼ 𝗚𝗥𝗢𝗨𝗣  ➾ <a href="https://t.me/kmtz_v4"> KMTZ GP2️⃣ </a>
+║┣⪼ 𝗚𝗥𝗢𝗨𝗣  ➾ <a href="https://t.me/kmtz_v5"> KMTZ GP3️⃣ </a>
+║┣⪼ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹  ➾ <a href="https://t.me/kmtz_channel_v3"> 𝗞𝗠𝗧𝗭 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 </a>
+║┣⪼ ★𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - 𝗞𝗠𝗧𝗭 𝗟𝗜𝗕𝗥𝗔𝗥𝗬
+║┣⪼ ★𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - 𝗠𝗔𝗡𝗚𝗟𝗜𝗦𝗛
+║┣⪼ ★𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁 - 𝗨𝗞
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 

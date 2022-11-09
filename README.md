@@ -105,5 +105,6 @@ python3 bot.py
 • /link - to create link for one post
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://t.me/kmtz_v4)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://t.me/kmtz_channel_v3)
+[<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [𝖕𝖗𝖆𝖓𝖆𝖛](https://t.me/KL_2335) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/kl_02_pranav_/) | [ɢɪᴛʜᴜʙ](GitHub.com/Pooja0033)</b>                                                                                                                                                                                    
+
+<b>ᴄʜᴀɴɴᴇʟ ›› [𝚙𝚛𝚟](https://t.me/prv_35)</b>

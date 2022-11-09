@@ -113,7 +113,7 @@ async def start(client, message):
             ],[
 
             InlineKeyboardButton('☑️ 𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌  ☑️', url='http://instagram.com/kl_02_pranav_?utm_source=qr')
-        ]]
+
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
